@@ -37,7 +37,7 @@ public class OcrTest {
 		//System.out.println(OcrTest.recognizeText(new File("D:\\puppy\\3.png")));
 		
 		if(args == null || args.length != 4) {
-			throw new Exception("待差处理的文件路径不正确");
+			throw new Exception("待处理的文件路径不正确");
 		}
 		String inputFilePath = args[0];
 		String outputFilePath = args[1];
